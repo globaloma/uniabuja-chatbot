@@ -2,8 +2,6 @@
 venv/
 __pycache__/
 *.pyc
-backend/model.pkl
-backend/vectorizer.pkl
 
 # Node / Next.js
 frontend/node_modules/
