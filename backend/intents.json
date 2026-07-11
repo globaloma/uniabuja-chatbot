@@ -1,0 +1,274 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Good morning",
+        "Good afternoon",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! Welcome to the University of Abuja chatbot. How can I help you?",
+        "Hi there! What information do you need about the University of Abuja?",
+        "Greetings! How may I assist you today?"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I get admission?",
+        "Tell me about admission",
+        "What are the admission requirements?",
+        "How do I apply for admission?",
+        "Admission process"
+      ],
+      "responses": [
+        "Admission requirements depend on the programme. Please visit the university portal for detailed admission guidelines.",
+        "You can apply for admission through the official University of Abuja admission portal.",
+        "For admission details, kindly check the official website or contact the admissions office."
+      ]
+    },
+    {
+      "tag": "school_fees",
+      "patterns": [
+        "How much is school fees?",
+        "What is the tuition fee?",
+        "How much do students pay?",
+        "Tell me about school fees",
+        "Fees for students"
+      ],
+      "responses": [
+        "School fees vary by department and level.",
+        "Tuition fees depend on your course of study.",
+        "Please check the university portal for the latest fee schedule."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "When is school resuming?",
+        "What is the academic calendar?",
+        "When does the semester start?",
+        "Tell me the resumption date",
+        "Academic schedule"
+      ],
+      "responses": [
+        "The academic calendar includes resumption dates, holidays, and examination periods.",
+        "Please check the official academic calendar on the university website.",
+        "Resumption and semester schedules are published by the university management."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are offered?",
+        "List available courses",
+        "What programmes are available?",
+        "Courses in the university",
+        "Available departments and courses"
+      ],
+      "responses": [
+        "The University of Abuja offers courses across sciences, arts, social sciences, management sciences, and more.",
+        "You can find the full list of courses on the official university website.",
+        "Available programmes depend on the faculty and department."
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When are exams starting?",
+        "Exam timetable",
+        "Tell me about exam schedule",
+        "When is the exam?",
+        "Examination date"
+      ],
+      "responses": [
+        "Exam schedules are usually released by the university before examinations begin.",
+        "Please check your department or faculty notice board for the exam timetable.",
+        "The examination timetable will be communicated through official channels."
+      ]
+    },
+    {
+      "tag": "results",
+      "patterns": [
+        "How can I check my result?",
+        "Where do I see my results?",
+        "Result checking",
+        "Tell me about student results",
+        "When will results be out?"
+      ],
+      "responses": [
+        "Results are usually available through the student portal.",
+        "Please log in to your student portal to check your results.",
+        "Result release dates depend on the department and semester."
+      ]
+    },
+    {
+      "tag": "registration",
+      "patterns": [
+        "How do I register courses?",
+        "Course registration process",
+        "Tell me about registration",
+        "How can I do my registration?",
+        "Register my courses"
+      ],
+      "responses": [
+        "Course registration is done through the student portal within the approved registration period.",
+        "Please ensure you pay necessary fees before registering your courses.",
+        "Visit the student portal and follow the registration instructions."
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "Is hostel accommodation available?",
+        "Tell me about hostel",
+        "How can I get accommodation?",
+        "Student housing",
+        "Accommodation process"
+      ],
+      "responses": [
+        "Accommodation availability depends on the number of spaces in the hostels.",
+        "You can apply for hostel accommodation through the university accommodation portal if available.",
+        "Please contact the student affairs division for accommodation details."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Where is the library?",
+        "Tell me about the school library",
+        "Library opening hours",
+        "How can I use the library?",
+        "University library information"
+      ],
+      "responses": [
+        "The university library provides access to books, journals, and research materials.",
+        "Please visit the library section of the university website for operating hours.",
+        "Students can use the library with valid identification and registration."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "What departments are in the school?",
+        "List the departments",
+        "Tell me about faculties and departments",
+        "Available departments",
+        "Departments in University of Abuja"
+      ],
+      "responses": [
+        "The University of Abuja has several faculties and departments across different disciplines.",
+        "Departments are grouped under faculties such as science, arts, management sciences, and others.",
+        "Please check the official university website for the complete list of departments."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Are there scholarships available?",
+        "Tell me about scholarships",
+        "Financial aid opportunities",
+        "Student scholarship information",
+        "Any scholarship for students?"
+      ],
+      "responses": [
+        "Scholarship opportunities may be announced by the university or external organizations.",
+        "Please check official notices for available scholarships and eligibility requirements.",
+        "You can contact the student affairs unit for scholarship information."
+      ]
+    },
+    {
+      "tag": "clearance",
+      "patterns": [
+        "How do I do clearance?",
+        "Tell me about student clearance",
+        "Graduation clearance process",
+        "Clearance requirements",
+        "School clearance"
+      ],
+      "responses": [
+        "Clearance involves confirming that all school obligations have been met.",
+        "You may need to visit the relevant units for departmental and administrative clearance.",
+        "Please check the university guidelines for the full clearance procedure."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the school?",
+        "University contact details",
+        "Phone number of the school",
+        "Email address of the university",
+        "How do I reach the administration?"
+      ],
+      "responses": [
+        "You can contact the university through the official website contact page.",
+        "Please check the university portal for phone numbers and email addresses.",
+        "Official contact details are usually listed on the university website."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the university located?",
+        "University address",
+        "How do I get to the school?",
+        "School location",
+        "Where is University of Abuja?"
+      ],
+      "responses": [
+        "The University of Abuja is located in Abuja, Nigeria.",
+        "Please check Google Maps or the official website for detailed directions.",
+        "The school address and location details are available on the university website."
+      ]
+    },
+    {
+      "tag": "post_utme",
+      "patterns": [
+        "Tell me about post utme",
+        "When is post utme starting?",
+        "How do I register for post utme?",
+        "Post utme requirements",
+        "Post utme screening"
+      ],
+      "responses": [
+        "Post-UTME information is usually announced on the university portal.",
+        "Please check the official website for screening dates and registration procedures.",
+        "Post-UTME requirements depend on the current admission session."
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks bye",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Feel free to come back if you need more information.",
+        "Bye! I am always here to help.",
+        "See you later! Have a great day."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need help",
+        "Help me with information",
+        "What can you do?",
+        "How can you assist me?"
+      ],
+      "responses": [
+        "I can help with information about admission, school fees, courses, exams, accommodation, and more.",
+        "Ask me about university services like registration, results, departments, and academic calendar.",
+        "I am here to answer common questions about the University of Abuja."
+      ]
+    }
+  ]
+}
