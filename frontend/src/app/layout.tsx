@@ -4,11 +4,18 @@ import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
-  title: "University of Abuja Chatbot",
-  description: "AI-powered chatbot for university information services",
+  title: "UniAbuja Assistant | University of Abuja Chatbot",
+  description:
+    "AI-powered virtual assistant for University of Abuja admission, Post-UTME, courses, accommodation, and clearance enquiries.",
+  icons: {
+    icon: "/uniabuja-logo.png",
+    shortcut: "/uniabuja-logo.png",
+    apple: "/uniabuja-logo.png",
+  },
 };
 
 export default function RootLayout({
@@ -18,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.variable} antialiased`}>{children}</body>
     </html>
   );
 }

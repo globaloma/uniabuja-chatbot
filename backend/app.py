@@ -21,8 +21,8 @@ def chat():
     if not user_message:
         return jsonify({"response": "Please enter a valid message."}), 400
 
-    reply = chatbot_response(user_message)
-    return jsonify({"response": reply})
+    reply, intent, confidence = chatbot_response(user_message)
+    return jsonify({"response": reply, "intent": intent, "confidence": confidence})
 
 if __name__ == "__main__":
     app.run(debug=True)

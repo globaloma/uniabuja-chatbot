@@ -16,11 +16,11 @@ for intent in data["intents"]:
         labels.append(intent["tag"])
 
 # Vectorize text
-vectorizer = TfidfVectorizer()
+vectorizer = TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, min_df=1)
 X = vectorizer.fit_transform(texts)
 
 # Train model
-model = MultinomialNB()
+model = MultinomialNB(alpha=0.3)
 model.fit(X, labels)
 
 # Save model and vectorizer

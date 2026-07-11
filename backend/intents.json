@@ -5,269 +5,324 @@
       "patterns": [
         "Hello",
         "Hi",
+        "Hi there",
+        "Hey",
+        "Hey there",
         "Good morning",
         "Good afternoon",
-        "Hey there"
+        "Good evening",
+        "Is anyone there?",
+        "Can you help me?",
+        "I need help",
+        "What can you do?",
+        "How can you assist me?",
+        "Who are you?",
+        "What is this?",
+        "Start"
       ],
       "responses": [
-        "Hello! Welcome to the University of Abuja chatbot. How can I help you?",
-        "Hi there! What information do you need about the University of Abuja?",
-        "Greetings! How may I assist you today?"
+        "Hello! Welcome to the University of Abuja virtual assistant. I can help with admission, Post-UTME screening, courses and programmes, accommodation, and clearance procedures. What would you like to know?",
+        "Hi there! I'm the UniAbuja chatbot. Ask me about admission requirements, Post-UTME, courses and programmes, hostel accommodation, or clearance procedures.",
+        "Welcome! I can answer questions about admission, Post-UTME screening, courses and faculties, accommodation, and clearance at the University of Abuja. How can I help?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "I appreciate it",
+        "I appreciate your help",
+        "Thanks for your help",
+        "You helped me a lot, thank you",
+        "Much appreciated",
+        "Thanks for the information",
+        "Ok thank you",
+        "Alright thanks"
+      ],
+      "responses": [
+        "You're very welcome! Happy to help. Feel free to ask about admission, Post-UTME, courses, accommodation, or clearance any time.",
+        "Anytime! Glad I could help. Let me know if anything else comes up.",
+        "You're welcome! Good luck — I'm here whenever you need me again."
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks bye",
+        "I'm leaving now",
+        "Talk to you later",
+        "Nice talking to you",
+        "I have to go now",
+        "Catch you later",
+        "See you",
+        "Gotta go",
+        "Alright bye"
+      ],
+      "responses": [
+        "Goodbye! Feel free to come back anytime you have questions about UniAbuja. All the best!",
+        "See you later! Good luck with your application and studies.",
+        "Take care! I'll be right here whenever you need information on admission, Post-UTME, courses, accommodation, or clearance."
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How's it going?",
+        "How is your day?",
+        "What's up?",
+        "How have you been?",
+        "You are amazing",
+        "You are the best",
+        "You're funny",
+        "You're smart",
+        "Good bot",
+        "Well done",
+        "Nice job",
+        "Are you a robot?",
+        "Are you human?",
+        "Are you real?",
+        "Are you a real person?",
+        "What is your name?",
+        "Who are you really?",
+        "Who created you?",
+        "Who made you?",
+        "Who built this chatbot?",
+        "Tell me a joke",
+        "Make me laugh",
+        "Say something funny",
+        "Do you have feelings?",
+        "Do you sleep?",
+        "Do you get tired?",
+        "Do you ever get bored?",
+        "Can we be friends?",
+        "Do you like students?",
+        "What is your favorite course?",
+        "What's your favorite food?",
+        "Sing me a song"
+      ],
+      "responses": [
+        "I'm doing great, thanks for asking! Running on zero coffee and full enthusiasm, ready to help with admission, Post-UTME, courses, accommodation, or clearance.",
+        "I'm a chatbot, so no arms for high-fives, but I appreciate the love! I was built to help University of Abuja students and applicants get quick, accurate answers. What can I help you with?",
+        "Ha, I try my best to keep things friendly! I don't sleep, I don't get tired, and I definitely don't eat jollof rice — but I hear it's a campus favourite. Now, what would you like to know about UniAbuja?",
+        "Think of me as a very enthusiastic, always-on study buddy who happens to know a lot about admission, Post-UTME, courses, accommodation, and clearance. Ask away!",
+        "Here's one for you: why did the JAMB candidate bring a ladder to the screening exercise? Because they heard the cut-off mark was high! Now, seriously, how can I help with your UniAbuja questions?",
+        "I'm flattered! Honestly though, I do my best work helping with admission, Post-UTME, courses, accommodation, and clearance questions — that's where I really shine."
       ]
     },
     {
       "tag": "admission",
       "patterns": [
-        "How can I get admission?",
-        "Tell me about admission",
+        "How can I get admission into University of Abuja?",
         "What are the admission requirements?",
-        "How do I apply for admission?",
-        "Admission process"
+        "How do I apply to UniAbuja?",
+        "What do I need for admission?",
+        "Tell me about the admission process",
+        "What subjects do I need for admission?",
+        "What is the cut off mark for UniAbuja?",
+        "What is the cut off mark for medicine?",
+        "What is UniAbuja's cut off mark this year?",
+        "Can I gain admission with direct entry?",
+        "What are the direct entry requirements?",
+        "Do I need five credits to apply?",
+        "How many sittings are allowed for O-Level?",
+        "What UTME score do I need for admission?",
+        "How do I know if I qualify for admission?",
+        "Is JAMB required for admission?",
+        "What happens after I choose UniAbuja on JAMB?",
+        "How do I select University of Abuja as my JAMB choice?",
+        "What are the requirements for 100 level admission?",
+        "Can I change my course after admission?",
+        "How do I check my admission status?",
+        "Where do I check if I have been admitted?",
+        "What documents do I need to apply for admission?",
+        "I want to study medicine, what score do I need?",
+        "Admission requirements for Direct Entry candidates"
       ],
       "responses": [
-        "Admission requirements depend on the programme. Please visit the university portal for detailed admission guidelines.",
-        "You can apply for admission through the official University of Abuja admission portal.",
-        "For admission details, kindly check the official website or contact the admissions office."
+        "For UTME candidates, admission into 100 level at the University of Abuja requires credit passes in five (5) subjects, including English Language and Mathematics, obtained in not more than two (2) sittings, with three (3) credits relevant to your chosen course. You also need an acceptable UTME score and must pass the university's Post-UTME screening.",
+        "For Direct Entry, you need at least two (2) 'A' Level passes (or equivalent qualifications such as ND, HND, NCE, IJMB or a first degree), plus five (5) credit passes including English Language and Mathematics at O'Level (WAEC, NECO, GCE or NABTEB).",
+        "The University of Abuja's baseline UTME cut-off mark is 180 for most courses, but each department sets its own departmental cut-off, which may be higher. For example, Medicine and Surgery (MBBS) typically requires around 230. Please confirm the exact cut-off for your specific course on the admission portal, as it may be revised each session.",
+        "To apply, first choose the University of Abuja as your institution on your JAMB CAOS profile, then register for the university's Post-UTME screening at portal.uniabuja.edu.ng once it opens. Admission is based on your UTME score, Post-UTME performance, and O'Level results.",
+        "You can check your admission status on the JAMB CAOS portal or the University of Abuja admission portal at portal.uniabuja.edu.ng using your JAMB registration number."
       ]
     },
     {
-      "tag": "school_fees",
+      "tag": "post_utme",
       "patterns": [
-        "How much is school fees?",
-        "What is the tuition fee?",
-        "How much do students pay?",
-        "Tell me about school fees",
-        "Fees for students"
+        "Tell me about Post-UTME",
+        "When is Post-UTME screening?",
+        "How do I register for Post-UTME?",
+        "What is the Post-UTME registration fee?",
+        "Post-UTME requirements",
+        "Where do I do Post-UTME screening?",
+        "How much does Post-UTME registration cost?",
+        "Is Post-UTME compulsory?",
+        "What documents do I need for Post-UTME screening?",
+        "What is the eligibility for Post-UTME?",
+        "Can Direct Entry candidates do Post-UTME?",
+        "What age do I need to be for Post-UTME?",
+        "How do I access the Post-UTME form?",
+        "Do I need to pay for the screening?",
+        "Where do I register for the screening exercise?",
+        "What happens if I don't register for Post-UTME?",
+        "How do I know my Post-UTME screening result?",
+        "Is there a form fee for the screening?",
+        "What is the minimum score for Post-UTME screening?"
       ],
       "responses": [
-        "School fees vary by department and level.",
-        "Tuition fees depend on your course of study.",
-        "Please check the university portal for the latest fee schedule."
+        "Post-UTME screening registration is done online at portal.uniabuja.edu.ng — click on 'click here to apply' to begin. Keep checking the portal and JAMB CAOS for the exact registration window for your session, as dates change every year.",
+        "To be eligible for Post-UTME screening, UTME candidates must meet the UTME cut-off mark and departmental cut-off, have at least 5 credits including English Language and Mathematics in not more than two sittings, and must have uploaded their O'Level results on the JAMB portal. Direct Entry candidates must have their A'Level results uploaded and verified on JAMB (note: NABTEB and JUPEB A'Level results are generally not accepted for Direct Entry at UniAbuja).",
+        "The Post-UTME/Direct Entry screening registration fee has typically been N2,000. Please confirm the current fee on the official portal before making payment, as it can be reviewed each session.",
+        "Candidates who do not register for the Post-UTME screening exercise will not be considered for admission, even if they meet the UTME cut-off mark, so it's important to complete this step promptly once the form opens.",
+        "There is usually a minimum age requirement (around 16 years) by a specified date in the admission session. Full eligibility criteria and any age cut-off dates are published on the portal when the screening form is released."
       ]
     },
     {
-      "tag": "academic_calendar",
+      "tag": "courses_programmes",
       "patterns": [
-        "When is school resuming?",
-        "What is the academic calendar?",
-        "When does the semester start?",
-        "Tell me the resumption date",
-        "Academic schedule"
+        "What courses are offered at UniAbuja?",
+        "What programmes does University of Abuja offer?",
+        "List the faculties in University of Abuja",
+        "What departments are available?",
+        "Tell me about the faculties",
+        "Does UniAbuja offer medicine?",
+        "Does the university have an engineering faculty?",
+        "What can I study at UniAbuja?",
+        "Is there a law faculty?",
+        "What science courses are available?",
+        "Does UniAbuja have a faculty of agriculture?",
+        "What management courses are offered?",
+        "Tell me about the faculty of education",
+        "Does the school offer nursing?",
+        "What are the available programmes in social sciences?",
+        "Is there a veterinary medicine programme?",
+        "What faculties does University of Abuja have?",
+        "How many faculties are in the university?",
+        "Where can I find the full list of departments?"
       ],
       "responses": [
-        "The academic calendar includes resumption dates, holidays, and examination periods.",
-        "Please check the official academic calendar on the university website.",
-        "Resumption and semester schedules are published by the university management."
-      ]
-    },
-    {
-      "tag": "courses",
-      "patterns": [
-        "What courses are offered?",
-        "List available courses",
-        "What programmes are available?",
-        "Courses in the university",
-        "Available departments and courses"
-      ],
-      "responses": [
-        "The University of Abuja offers courses across sciences, arts, social sciences, management sciences, and more.",
-        "You can find the full list of courses on the official university website.",
-        "Available programmes depend on the faculty and department."
-      ]
-    },
-    {
-      "tag": "exam_schedule",
-      "patterns": [
-        "When are exams starting?",
-        "Exam timetable",
-        "Tell me about exam schedule",
-        "When is the exam?",
-        "Examination date"
-      ],
-      "responses": [
-        "Exam schedules are usually released by the university before examinations begin.",
-        "Please check your department or faculty notice board for the exam timetable.",
-        "The examination timetable will be communicated through official channels."
-      ]
-    },
-    {
-      "tag": "results",
-      "patterns": [
-        "How can I check my result?",
-        "Where do I see my results?",
-        "Result checking",
-        "Tell me about student results",
-        "When will results be out?"
-      ],
-      "responses": [
-        "Results are usually available through the student portal.",
-        "Please log in to your student portal to check your results.",
-        "Result release dates depend on the department and semester."
-      ]
-    },
-    {
-      "tag": "registration",
-      "patterns": [
-        "How do I register courses?",
-        "Course registration process",
-        "Tell me about registration",
-        "How can I do my registration?",
-        "Register my courses"
-      ],
-      "responses": [
-        "Course registration is done through the student portal within the approved registration period.",
-        "Please ensure you pay necessary fees before registering your courses.",
-        "Visit the student portal and follow the registration instructions."
+        "The University of Abuja is organised into 14 faculties: Agriculture, Arts, Basic Medical Sciences, Clinical Sciences, Communication and Media Studies, Education, Engineering, Environmental Sciences, Law, Management Sciences, Nursing and Allied Health Sciences, Science, Social Sciences, and Veterinary Medicine.",
+        "Yes, the University of Abuja offers Medicine and Surgery (MBBS) through its Faculties of Basic Medical Sciences and Clinical Sciences, in affiliation with the University of Abuja Teaching Hospital in Gwagwalada.",
+        "Popular faculties include Science (covering courses like Computer Science, Biology, Chemistry, Physics, and Mathematics), Engineering, Law, Management Sciences, Social Sciences, Education, Agriculture, and Environmental Sciences.",
+        "For the complete, up-to-date list of departments and specific programmes under each faculty, please check the official University of Abuja website at uniabuja.edu.ng/faculties, as new programmes are occasionally added.",
+        "You can ask me about a specific faculty (for example, 'does UniAbuja offer engineering?') and I'll let you know if it's available."
       ]
     },
     {
       "tag": "accommodation",
       "patterns": [
         "Is hostel accommodation available?",
-        "Tell me about hostel",
         "How can I get accommodation?",
-        "Student housing",
-        "Accommodation process"
+        "Tell me about hostel accommodation",
+        "How much is hostel fee?",
+        "How do I apply for a hostel room?",
+        "Is accommodation compulsory?",
+        "Where do I book a hostel space?",
+        "How do I pay for hostel accommodation?",
+        "Are there hostels for international students?",
+        "Can returning students get hostel accommodation?",
+        "What is the fee for the new hostel?",
+        "What is the fee for the old hostel?",
+        "How do fresh students apply for hostel?",
+        "Is there accommodation on the main campus?",
+        "What happens if I don't pay for my hostel booking on time?",
+        "Do all students get hostel space?",
+        "How can I check hostel availability?",
+        "Student housing information"
       ],
       "responses": [
-        "Accommodation availability depends on the number of spaces in the hostels.",
-        "You can apply for hostel accommodation through the university accommodation portal if available.",
-        "Please contact the student affairs division for accommodation details."
-      ]
-    },
-    {
-      "tag": "library",
-      "patterns": [
-        "Where is the library?",
-        "Tell me about the school library",
-        "Library opening hours",
-        "How can I use the library?",
-        "University library information"
-      ],
-      "responses": [
-        "The university library provides access to books, journals, and research materials.",
-        "Please visit the library section of the university website for operating hours.",
-        "Students can use the library with valid identification and registration."
-      ]
-    },
-    {
-      "tag": "departments",
-      "patterns": [
-        "What departments are in the school?",
-        "List the departments",
-        "Tell me about faculties and departments",
-        "Available departments",
-        "Departments in University of Abuja"
-      ],
-      "responses": [
-        "The University of Abuja has several faculties and departments across different disciplines.",
-        "Departments are grouped under faculties such as science, arts, management sciences, and others.",
-        "Please check the official university website for the complete list of departments."
-      ]
-    },
-    {
-      "tag": "scholarship",
-      "patterns": [
-        "Are there scholarships available?",
-        "Tell me about scholarships",
-        "Financial aid opportunities",
-        "Student scholarship information",
-        "Any scholarship for students?"
-      ],
-      "responses": [
-        "Scholarship opportunities may be announced by the university or external organizations.",
-        "Please check official notices for available scholarships and eligibility requirements.",
-        "You can contact the student affairs unit for scholarship information."
+        "Hostel accommodation at the University of Abuja is not compulsory, but both fresh and returning students can apply. Spaces are limited and allocated on a first-come, first-served basis, so it's best to apply as early as the portal opens.",
+        "To apply, log in to the student portal at portal.uniabuja.edu.ng with your matric number and password, select a hostel, make payment, and then take your payment proof to the Student Affairs Division for documentation and allocation.",
+        "Hostel fees vary by hostel type and are reviewed each session. As a guide: New Male/Female Hostels (Main Campus) have been around N40,000, Old Male/Female Hostels around N25,000, and the International Students' Hostel around N100,000. Please confirm the current fees on the portal before paying.",
+        "Once you book a hostel space, you typically have about one week to complete payment — unpaid bookings are usually revoked and reassigned to other students, so pay promptly after booking.",
+        "Hostel space is limited, so not every student is guaranteed a room, particularly some returning students in higher levels. Priority is often given to fresh students and those who apply early."
       ]
     },
     {
       "tag": "clearance",
       "patterns": [
         "How do I do clearance?",
-        "Tell me about student clearance",
-        "Graduation clearance process",
-        "Clearance requirements",
-        "School clearance"
+        "What is the clearance procedure?",
+        "Tell me about screening after admission",
+        "What is credential screening?",
+        "Credential verification exercise",
+        "How does credential verification work?",
+        "What do I do after I get admission?",
+        "What documents do I need for clearance?",
+        "What happens after admission?",
+        "How do I register my courses?",
+        "How do I get my matric number?",
+        "When will I get my matriculation number?",
+        "When is matriculation?",
+        "What is matriculation ceremony?",
+        "Do I need to attend matriculation?",
+        "What next after I see my name on the admission list?",
+        "How do I complete my clearance process?",
+        "What is required for physical screening?",
+        "Do I need my JAMB documents for clearance?",
+        "How do I pay school fees and register courses?"
       ],
       "responses": [
-        "Clearance involves confirming that all school obligations have been met.",
-        "You may need to visit the relevant units for departmental and administrative clearance.",
-        "Please check the university guidelines for the full clearance procedure."
+        "After admission, new students must attend a physical Credential Screening exercise at the Permanent Site, where your original certificates (WAEC/NECO, JAMB result, birth certificate, LG/indigene certificate, passport photographs) are verified against your JAMB and application records. Bring both originals and photocopies of all documents.",
+        "After your credentials are verified, you proceed to pay your school fees and register your courses on the student portal (portal.uniabuja.edu.ng). Your matriculation number is generated only after school fees have been paid and courses registered — it is not issued automatically at admission.",
+        "The Matriculation Ceremony is a mandatory event for all newly admitted students, formally confirming your enrolment and commitment to the university's academic rules and code of conduct. Watch the portal and official announcements for the exact date and venue for your session.",
+        "In summary, the typical order after admission is: (1) credential/document screening, (2) school fee payment, (3) course registration on the portal, (4) matric number generation, then (5) matriculation ceremony. Always confirm the exact checklist and dates published for your specific session, as these can change.",
+        "Keep your phone and email active during this period — the university communicates screening venues, dates, and any changes to registered applicants through the portal, email, and SMS."
       ]
     },
     {
-      "tag": "contact",
+      "tag": "fallback",
       "patterns": [
+        "How much is school fees?",
+        "What is the tuition fee?",
+        "How much do I pay per session?",
+        "When is school resuming?",
+        "What is the academic calendar?",
+        "When does the semester start?",
+        "When are exams starting?",
+        "Exam timetable",
+        "When is the exam?",
+        "How can I check my result?",
+        "Where do I see my results?",
+        "When will results be out?",
+        "How do I register courses?",
+        "Course registration process",
+        "Where is the library?",
+        "Library opening hours",
+        "How can I use the library?",
+        "Are there scholarships available?",
+        "Financial aid opportunities",
+        "Any scholarship for students?",
         "How can I contact the school?",
         "University contact details",
         "Phone number of the school",
         "Email address of the university",
-        "How do I reach the administration?"
-      ],
-      "responses": [
-        "You can contact the university through the official website contact page.",
-        "Please check the university portal for phone numbers and email addresses.",
-        "Official contact details are usually listed on the university website."
-      ]
-    },
-    {
-      "tag": "location",
-      "patterns": [
         "Where is the university located?",
         "University address",
         "How do I get to the school?",
-        "School location",
-        "Where is University of Abuja?"
+        "What is the weather like today?",
+        "Who is the president of Nigeria?",
+        "What is the capital of France?",
+        "Can you book a flight for me?",
+        "What is 2 plus 2?",
+        "What's the football score today?",
+        "Recommend a movie for me",
+        "Translate this sentence to French",
+        "asdkjaskjd",
+        "blah blah blah"
       ],
       "responses": [
-        "The University of Abuja is located in Abuja, Nigeria.",
-        "Please check Google Maps or the official website for detailed directions.",
-        "The school address and location details are available on the university website."
-      ]
-    },
-    {
-      "tag": "post_utme",
-      "patterns": [
-        "Tell me about post utme",
-        "When is post utme starting?",
-        "How do I register for post utme?",
-        "Post utme requirements",
-        "Post utme screening"
-      ],
-      "responses": [
-        "Post-UTME information is usually announced on the university portal.",
-        "Please check the official website for screening dates and registration procedures.",
-        "Post-UTME requirements depend on the current admission session."
-      ]
-    },
-    {
-      "tag": "bye",
-      "patterns": [
-        "Bye",
-        "Goodbye",
-        "See you later",
-        "Thanks bye",
-        "Talk to you later"
-      ],
-      "responses": [
-        "Goodbye! Feel free to come back if you need more information.",
-        "Bye! I am always here to help.",
-        "See you later! Have a great day."
-      ]
-    },
-    {
-      "tag": "help",
-      "patterns": [
-        "Can you help me?",
-        "I need help",
-        "Help me with information",
-        "What can you do?",
-        "How can you assist me?"
-      ],
-      "responses": [
-        "I can help with information about admission, school fees, courses, exams, accommodation, and more.",
-        "Ask me about university services like registration, results, departments, and academic calendar.",
-        "I am here to answer common questions about the University of Abuja."
+        "That's outside what I'm trained on for now — I focus specifically on admission, Post-UTME, courses and programmes, accommodation, and clearance at the University of Abuja. For this one, please reach out to the appropriate administrative office, or check uniabuja.edu.ng.",
+        "Good question, but not one I can answer accurately — my training is limited to admission, Post-UTME, courses and programmes, accommodation, and clearance. Please contact the university's administrative staff for help with this, or visit portal.uniabuja.edu.ng.",
+        "I'd rather not guess on this one since it's beyond my trained scope (admission, Post-UTME, courses & programmes, accommodation, and clearance). Kindly reach out to the relevant UniAbuja office or check the official website for accurate information."
       ]
     }
   ]
